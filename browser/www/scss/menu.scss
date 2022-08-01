@@ -1,0 +1,54 @@
+@use 'variables';
+
+
+body{
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  background-color: variables.$primaryBackgroundColor;
+  color: white;
+  font-family: 'Bebas Neue';
+}
+
+
+h1, h2, h3{
+  color: variables.$primaryAccentColor;
+}
+
+a.brand-logo {
+  font-size: 1.2rem;
+}
+
+.carousel-item{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.spa {
+  display: none;
+  min-height: 100%;
+  top:0px;
+  right:0px;
+  bottom:0px;
+  left:0px;
+}
+
+.carousel {
+  min-height: 100vh;
+  .carousel-item {
+    justify-content: center;
+    align-items:center;
+    p {
+
+      text-align: center;
+    }
+  }
+}
+#tabMenu {
+  display: block; 
+}
+
+p {
+  text-align: justify;
+}

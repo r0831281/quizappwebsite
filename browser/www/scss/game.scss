@@ -1,0 +1,53 @@
+.gameSettingContainer{
+	min-height:70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: nowrap;
+	margin: auto;
+	flex-direction: column;
+}
+button{
+	margin: auto;
+	text-align: center;
+}
+
+.gameContainer{
+	display: flex;
+	align-items: center;
+	flex-wrap: nowrap;
+	margin: auto;
+}
+.questionResult{
+	text-align: center;
+}
+
+#backToMenu{
+	position:fixed;
+	top:2%;
+	right: 5%;
+}
+.answer{
+	flex-grow: 1;
+	margin: 15px;
+}
+
+.select-dropdown{
+	color: white;
+}
+
+#startNewGame{
+	position: absolute;
+	bottom: 20%;
+	margin: auto;
+}
+
+#questionResultcol{
+	min-height: 20vh;
+}
+
+input{
+	color: white;
+	font-family: 'Bebas Neue';
+}
+
