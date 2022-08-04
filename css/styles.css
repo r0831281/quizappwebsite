@@ -2,10 +2,10 @@ body {
     background: #6C757D;
     background-image: linear-gradient(to right top, #eeff41, #8bf27b, #2fdaa8, #14bdbc, #569caf, #608a9c, #657886, #63686e, #585f66, #4d575f, #424f57, #37474f);
     color: whitesmoke;
-    min-height: 90vh;
+    min-height: 100vh;
 }
 .container{
-    min-height: 85vh;
+    min-height: 95vh;
 }
 #downloadButton{
     border:2px solid black;
@@ -13,4 +13,9 @@ body {
     text-decoration: none;
     color: #eeff41;
     padding: 10px;
+}
+
+img, carousel{
+    max-height: 450px;
+    max-width: 200px;
 }
